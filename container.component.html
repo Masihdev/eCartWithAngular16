@@ -12,6 +12,7 @@
 <span>{{ addToCart }}</span>
 <button [disabled]="addToCart == product.inStockc" (click)="incrementValue()">+</button> -->
 <app-search></app-search>
-<div *ngFor="let item of [1, 2, 3, 4, 5]; let i = index">
+<!-- <div *ngFor="let item of [1, 2, 3, 4, 5]; let i = index">
     <p>Current element is {{ item }} at index {{ i }}</p>
-</div>
+</div> -->
+<product-list></product-list>
